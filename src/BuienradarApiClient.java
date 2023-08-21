@@ -7,6 +7,7 @@ import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.io.*;
 import java.util.Properties;
+//why does it not recognize java?
 
 public class BuienradarApiClient {
 
