@@ -7,12 +7,11 @@ import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.io.*;
 import java.util.Properties;
-//why does it not recognize java?
 
 public class BuienradarApiClient {
 
     private static final String API_URL = "https://data.buienradar.nl/2.0/feed/json";
-    private static final String CONFIG_FILE = "config.properties";
+    private static final String CONFIG_FILE = "src\\config.properties";
 
     public static void main(String[] args) {
         BuienradarApiClient client = new BuienradarApiClient();
